@@ -1,2 +1,2 @@
 # solved-class
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+백준문제 맞출 시 자동 커밋
