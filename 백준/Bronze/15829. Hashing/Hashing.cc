@@ -11,7 +11,7 @@ int main(void)
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	int sum{ 0 };
+	long long sum{ 0 }, m{ 1234567891 }, r{ 1 };
 	int l;
 	cin >> l;
 
@@ -19,7 +19,8 @@ int main(void)
 	{
 		char a;
 		cin >> a;
-		sum += (a - 96) * pow(31, i);
+		sum = (sum + (a - 96) * r) % m;
+		r = (r * 31) % m;
 	}
 
 	cout << sum << nl;
