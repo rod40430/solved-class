@@ -10,7 +10,7 @@ int main(void)
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-	int a, b;
+	long a, b;
 	cin >> a >> b;
 
 	cout << (a + b) * (a - b) << nl;
